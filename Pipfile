@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gevent = ">=1.4.0"
+pywebview = "*"
+pyinstaller = "*"
+py2app = "*"
+uvicorn = "*"
+python-multipart = "*"
+python-jose = "*"
+sqlalchemy = "*"
+aiofiles = "*"
+psutil = "*"
+pynpm = "*"
+python-dotenv = "*"
+flask-socketio = "*"
+flask = "*"
+gevent-websocket = "*"
+click = "*"
+python-socketio = "*"
+flask-migrate = "*"
+eventlet = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

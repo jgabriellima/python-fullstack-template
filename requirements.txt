@@ -1,0 +1,6 @@
+setuptools
+pywebview
+pyinstaller; sys_platform != 'darwin'
+py2app; sys_platform == 'darwin'
+gevent>=1.4.0
+fastapi
